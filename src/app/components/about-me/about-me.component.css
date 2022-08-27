@@ -1,0 +1,154 @@
+.row{
+  padding: 25px ;
+
+}
+
+.alineacion{
+    padding-left: 80%;
+
+
+}
+
+div{
+    background-color: rgb(96, 161, 236);
+    text-align: center;
+ }
+
+ 
+ 
+
+#editar {
+
+    margin-left: 20%;
+}
+#name{
+  font-weight: bold;   /* para resaltar el nombre en negrita*/
+  background-color: rgb(81, 125, 228);
+  
+}
+
+#fullstack{
+    font-weight: bold;   /* para resaltar el nombre en negrita*/
+    background-color: rgb(255, 255, 255);
+      
+  }
+
+#tecnico{
+    font-weight: bold;   /* para resaltar el nombre en negrita*/
+    background-color: rgb(81, 125, 228);
+      
+
+}
+
+
+
+
+
+@media (min-width:576px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+#imagen{
+    position: absolute;
+    width: 15%;
+    border-radius: 20%;
+    box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+    left: 2%;
+    top:522px; 
+    }   
+}
+
+@media (max-width: 575px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+    #imagen{
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+        
+   } 
+}
+
+
+@media (min-width:610px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+    #imagen{
+        position: absolute;
+        width: 15%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+        left: 2%;
+        top:540px; 
+        }   
+    }
+
+
+    @media (min-width:727px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+    #imagen{
+        position: absolute;
+        width: 15%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+        left: 2%;
+            top:600px; 
+            }   
+        }
+
+
+@media (min-width:841px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+    #imagen{
+        position: absolute;
+        width: 15%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+        left: 2%;
+        top:650px; 
+        }   
+    }
+
+    @media (min-width:909px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+        #imagen{
+            position: absolute;
+            width: 15%;
+            border-radius: 20%;
+            box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+            left: 2%;
+            top:720px; 
+            }   
+        }
+        
+        @media (min-width:1025px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+            #imagen{
+                position: absolute;
+                width: 15%;
+                border-radius: 20%;
+                box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+                left: 2%;
+                top:790px; 
+                }   
+            }
+        @media (min-width:1145px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+                #imagen{
+                    position: absolute;
+                    width: 15%;
+                    border-radius: 20%;
+                    box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+                    left: 2%;
+                    top:890px; 
+                    }   
+                }
+
+       @media (min-width:1300px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+                    #imagen{
+                        position: absolute;
+                        width: 15%;
+                        border-radius: 20%;
+                        box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+                        left: 2%;
+                        top:1020px; 
+                        }   
+                    }
+
+      @media (min-width:1300px){ /* a partir de este valor aplica el estilo a la foto de perfil*/
+                        #imagen{
+                         position: absolute;
+                            width: 15%;
+                            border-radius: 20%;
+                            box-shadow: 3px 3px 3px black; /*Sombra en la foto de perfil*/
+                            left: 2%;
+                            top:1062px; 
+                            }   
+                        }

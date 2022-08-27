@@ -1,0 +1,31 @@
+.row{
+    padding: 20px;
+    background-color:rgb(96, 161, 236)
+}
+
+.container{
+  width: auto;
+}
+
+.part_texto, .part_imagen{
+  display: inline-block;
+  text-align: justify;
+
+}
+
+h1, h3 {
+  display: inline;
+ 
+ }
+ 
+ .imagen{
+  box-shadow: 10px 10px 30px black;
+  }
+
+  #titulo{
+    font-weight: bold;   /* para resaltar el nombre en negrita*/
+    background-color: rgb(41, 73, 161);
+    color: aliceblue;
+}
+
+a { color: #0004ff; }

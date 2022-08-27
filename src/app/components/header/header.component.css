@@ -1,0 +1,8 @@
+div{
+    background-color:rgb(96, 161, 236);
+}
+
+app-social{    /* acomoda las imagenes de redes sociales a la derecha */
+    float:right;
+    margin-top: 25px;
+}

@@ -1,0 +1,39 @@
+<div class="row">
+  <h1 id="titulo">- Educación</h1>
+  <br>
+  <div class="col-lg-2">
+    <button type="button" class="btn btn-warning" routerLink="/nuevaedu" *ngIf="isLogged">
+     AGREGAR NUEVA EDUCACION
+    </button>
+  </div>
+
+  <div class="col-lg-1"></div>
+  <div class="col-lg-11">
+    <table class="table">
+      <tbody>
+        <tr *ngFor="let Educacion of educacion">
+          <td>
+            <h3>{{Educacion.nombreE}}</h3>
+          </td>
+          <td>{{Educacion.descripcionE}}</td>
+          <!-- al hacer clic va a ir a la ruta editexp y va a capturar el id de Experiencia-->
+          <!--*ngIf verifica si esta logeado como administrador para mostrar los botones de edicion-->
+          <td *ngIf="isLogged"><button class="btn btn-success" routerLink="/editedu/{{Educacion.id}}">
+              <i class="bi bi-pin-angle-fill"></i> EDITAR</button>
+          </td>
+
+
+          <td *ngIf="isLogged"><button class="btn btn-dark" (click)="borrar(Educacion.id)">
+              <i class="bi bi-trash3-fill"></i> BORRAR</button>
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>
+  

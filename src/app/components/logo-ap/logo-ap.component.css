@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    /* para centrar los elementos logo y redes sociales en pantalla*/
+}
+.redes{
+  margin-right: 0.5em;
+  /*aleja del borde a las redes*/
+
+}
+
+#logoAP{
+    width: 150px;
+}
+
+img{
+    width: 40px;
+ }
+
+ .btn{
+   border-width: medium ; 
+   /*engrosa el borde del boton LOGIN para equipararlo al borde de las imagenes de las redes*/
+
+ }
+
+/*Caso en el que se achica la pantalla y como se va a comportar cada div*/
+@media (max-width:575px){
+    .container{
+        flex-direction: column; /*para cuando se reescale la pantalla a una resolucion mas chica quede uno abajo del otro*/
+    }
+   
+    .redes{
+       display: flex;
+       flex-direction: column; /*para cuando se reescale la pantalla a una resolucion mas chica quede uno abajo del otro*/
+       align-items: center ; /*asi quedan los iconos alineados al medio*/
+       }
+   
+   .redes img{
+       margin: 0.2em; /*espaciado entre los elementos para mejor visualizacion cuando este uno arriba del otro*/
+   }
+   
+}

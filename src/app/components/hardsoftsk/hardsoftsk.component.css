@@ -1,0 +1,21 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color:rgb(96, 161, 236) ;
+}
+
+
+ul{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+h4,p{
+    display: inline;
+}
+
+#titulo{
+    font-weight: bold;   /* para resaltar el nombre en negrita*/
+    background-color: rgb(41, 73, 161);
+    color: aliceblue;
+}
